@@ -5,13 +5,13 @@
     let num1, num2, min, max, i;
 
     do {
-       num1 = +prompt ('enter first number, please');  
+       num1 = +prompt ('Пожалуйста, введите первое число');  
        } while (isNaN(num1))
 
        
 
        do {
-              num2 = +prompt ('enter second number, please');  
+              num2 = +prompt ('Пожалуйста, введите второе число');  
 
        } while (isNaN(num2))
 
@@ -24,7 +24,7 @@
                max = num2;
               min = num1;
        } else if ( min == max ){
-             document.write('Вы ввели одинаковые числа, повторите попопытку')
+             document.write('Пожалуйста, введите диапозон чисел')
              
        } 
 
